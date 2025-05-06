@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\news_project_mvc.props" />
+</Project>
