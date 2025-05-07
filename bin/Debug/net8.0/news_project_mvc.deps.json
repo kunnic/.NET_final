@@ -10,9 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.15",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.15",
+          "Microsoft.AspNetCore.Identity.UI": "8.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.4",
-          "NLog.Web": "5.4.0",
           "NLog.Web.AspNetCore": "5.4.0",
           "System.IdentityModel.Tokens.Jwt": "8.9.0"
         },
@@ -100,6 +100,18 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.15.0",
+            "fileVersion": "8.0.1525.16505"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/8.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.15",
+          "Microsoft.Extensions.Identity.Stores": "8.0.15"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.UI.dll": {
             "assemblyVersion": "8.0.15.0",
             "fileVersion": "8.0.1525.16505"
           }
@@ -620,6 +632,22 @@
           }
         }
       },
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1525.16505"
+          }
+        }
+      },
       "Microsoft.Extensions.Identity.Core/8.0.15": {
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.15",
@@ -835,17 +863,6 @@
           "lib/net8.0/NLog.Extensions.Logging.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.4.0.625"
-          }
-        }
-      },
-      "NLog.Web/5.4.0": {
-        "dependencies": {
-          "NLog": "5.4.0"
-        },
-        "runtime": {
-          "lib/net46/NLog.Web.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.4.0.1202"
           }
         }
       },
@@ -1199,6 +1216,13 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.15",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.8.0.15.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Identity.UI/8.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yAonA+E/zgTfpgHPXpRJbJQUDDKH9ESHjUbVEZrrlghCtQLhaK8XJPs95ssUDMOTCaMy+2T45G2W1vXNLUd0bg==",
+      "path": "microsoft.aspnetcore.identity.ui/8.0.15",
+      "hashPath": "microsoft.aspnetcore.identity.ui.8.0.15.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1374,6 +1398,20 @@
       "path": "microsoft.extensions.dependencymodel/9.0.4",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.4.nupkg.sha512"
     },
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m6rdiYSi8YAWTVnp8wDZMK8xg3cjj75uAIfG+3v2uFkCAwVkSNAWz3Ja6v8iNM2xISCsOyn24bJnSJyC/elEbQ==",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.15",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.8.0.15.nupkg.sha512"
+    },
     "Microsoft.Extensions.Identity.Core/8.0.15": {
       "type": "package",
       "serviceable": true,
@@ -1506,13 +1544,6 @@
       "sha512": "sha512-5T19INfbzRywZpyBGoQChsB/R7eHW9hR4Ml9O22NRjJpfltGIJ+rsoCcjwr2/V/E6i3/eXLTQwRAeDMICjWpTA==",
       "path": "nlog.extensions.logging/5.4.0",
       "hashPath": "nlog.extensions.logging.5.4.0.nupkg.sha512"
-    },
-    "NLog.Web/5.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OpWocStXabAKbFDoZKDmYn55rM09ymeUTzX5TlEDRZRNQeZUQwmTwvXQ0sarnAl7n7q5ov6FjAs0DLZuvVQIDw==",
-      "path": "nlog.web/5.4.0",
-      "hashPath": "nlog.web.5.4.0.nupkg.sha512"
     },
     "NLog.Web.AspNetCore/5.4.0": {
       "type": "package",

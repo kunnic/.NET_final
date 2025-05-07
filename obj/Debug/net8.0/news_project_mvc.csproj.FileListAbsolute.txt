@@ -54,7 +54,6 @@ C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\Microsoft.W
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\NLog.dll
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\NLog.Extensions.Logging.dll
-C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\NLog.Web.dll
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\System.CodeDom.dll
@@ -181,3 +180,6 @@ C:\Users\kunnic\Desktop\.net_final\news_project_mvc\obj\Debug\net8.0\refint\news
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\obj\Debug\net8.0\news_project_mvc.pdb
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\obj\Debug\net8.0\news_project_mvc.genruntimeconfig.cache
 C:\Users\kunnic\Desktop\.net_final\news_project_mvc\obj\Debug\net8.0\ref\news_project_mvc.dll
+C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\kunnic\Desktop\.net_final\news_project_mvc\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\kunnic\Desktop\.net_final\news_project_mvc\obj\Debug\net8.0\news_project_mvc.MvcApplicationPartsAssemblyInfo.cs

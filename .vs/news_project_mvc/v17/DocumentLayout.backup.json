@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Migrations\\20250505101328_addDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250505101328_addDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\migrations\\20250505101328_adddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:migrations\\20250505101328_adddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|c:\\users\\kunnic\\desktop\\.net_final\\news_project_mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44012E3-5756-42B7-BFF0-AB7AC16074A9}|news_project_mvc.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "20250505101328_addDB.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Migrations\\20250505101328_addDB.cs",
               "RelativeDocumentMoniker": "Migrations\\20250505101328_addDB.cs",
@@ -55,50 +63,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAACAGBBoBFkhwGAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:11:31.915Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-05T10:05:07.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:59:16.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Models\\Setting.cs",
               "RelativeDocumentMoniker": "Models\\Setting.cs",
@@ -111,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Models\\Article.cs",
               "RelativeDocumentMoniker": "Models\\Article.cs",
@@ -124,15 +128,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA7wAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:20:45.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T02:26:37.048Z",
               "EditorCaption": ""
             }
           ]
