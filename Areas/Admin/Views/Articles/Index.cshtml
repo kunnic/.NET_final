@@ -1,0 +1,89 @@
+﻿@model IEnumerable<news_project_mvc.Models.Article>
+
+@{
+    ViewData["Title"] = "Quản lý Bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml"; // Đảm bảo bạn có Layout này
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Bài viết mới</a>
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PublishedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IsPublished)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ViewCount)
+            </th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    @(item.Author != null ? item.Author.UserName : "N/A")
+                </td>
+                <td>
+                    @* Sửa ở đây: Bỏ .HasValue và .Value *@
+                    @if (item.PublishedDate.Year > 1970) // Giả định năm > 1970 là ngày publish hợp lệ
+                    {
+                        @Html.DisplayFor(modelItem => item.PublishedDate)
+                    }
+                    else
+                    {
+                        <span>Chưa xuất bản</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsPublished)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ViewCount)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-primary">Sửa</a> |
+                    <a asp-action="Details" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-info">Chi tiết</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

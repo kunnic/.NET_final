@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection; // Cần cho GetRequiredService
-using Microsoft.Extensions.Logging; // Cần cho ILogger
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace news_project_mvc.Data
 {
@@ -38,9 +38,8 @@ namespace news_project_mvc.Data
             }
 
             var adminEmail = "admin@abc.com";
-            var adminUserName = "admin"; 
+            var adminUserName = "admin";
 
-            // Kiểm tra xem user đã tồn tại bằng UserName chưa (an toàn hơn)
             var adminUser = await userManager.FindByNameAsync(adminUserName);
 
             if (adminUser == null)
@@ -48,13 +47,12 @@ namespace news_project_mvc.Data
                 logger.LogInformation("Admin user '{AdminUserName}' not found, attempting to create.", adminUserName);
                 var newAdminUser = new IdentityUser
                 {
-                    UserName = adminUserName, // Quan trọng: Đặt UserName
+                    UserName = adminUserName,
                     Email = adminEmail,
                     EmailConfirmed = true
                 };
 
-                // Mật khẩu nên mạnh hơn, hoặc bạn cần cấu hình Identity để chấp nhận mật khẩu yếu hơn trong quá trình dev
-                var result = await userManager.CreateAsync(newAdminUser, "Admin@12345"); // THỬ MỘT MẬT KHẨU MẠNH HƠN
+                var result = await userManager.CreateAsync(newAdminUser, "Admin@12345");
 
                 if (result.Succeeded)
                 {
@@ -75,7 +73,6 @@ namespace news_project_mvc.Data
                 }
                 else
                 {
-                    // GHI LOG CHI TIẾT LỖI TẠO USER
                     logger.LogError("Failed to create user '{AdminUserName}'.", adminUserName);
                     foreach (var error in result.Errors)
                     {
@@ -86,7 +83,6 @@ namespace news_project_mvc.Data
             else
             {
                 logger.LogInformation("Admin user '{AdminUserName}' already exists.", adminUserName);
-                // Kiểm tra xem user đã có trong role Admin chưa
                 if (!await userManager.IsInRoleAsync(adminUser, "Admin"))
                 {
                     logger.LogInformation("User '{AdminUserName}' exists but is not in 'Admin' role. Attempting to add.", adminUserName);

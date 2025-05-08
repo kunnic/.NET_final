@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <span class="nav-link text-dark">Xin chào @User.Identity?.Name!</span>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-controller="Account" asp-action="Logout" method="post">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="nav-link btn btn-link text-dark">Đăng xuất</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        @* Hiện tại AccountController của bạn có AdminLogin. Nếu bạn có trang đăng ký chung, bạn có thể thêm link ở đây. *@
+        @*
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">Đăng Ký</a>
+    </li>
+    *@
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Account" asp-action="AdminLogin">Đăng Nhập</a>
+        </li>
+    }
+</ul>

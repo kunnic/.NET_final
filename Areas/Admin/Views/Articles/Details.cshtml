@@ -1,0 +1,102 @@
+﻿@model news_project_mvc.Models.Article
+
+@{
+    ViewData["Title"] = "Chi tiết Bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ArticleId)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ArticleId)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Slug)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Slug)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Summary)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Summary)
+        </dd>
+        <dt class="col-sm-3">
+            Nội dung
+        </dt>
+        <dd class="col-sm-9">
+            @Html.Raw(Model.Content) {{-- Hiển thị HTML nếu nội dung là HTML --}}
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Author.UserName)
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.Author != null ? Model.Author.UserName : "N/A")
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PublishedDate)
+        </dt>
+        <dd class="col-sm-9">
+            @* Sửa ở đây: Bỏ .HasValue và .Value *@
+            @if (Model.PublishedDate.Year > 1970) // Giả định năm > 1970 là ngày publish hợp lệ
+            {
+                @Html.DisplayFor(model => model.PublishedDate)
+            }
+            else
+            {
+                <span>Chưa xuất bản</span>
+            }
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.IsPublished)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.IsPublished)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ViewCount)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.UpdatedAt)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.UpdatedAt)
+        </dd>
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </dt>
+            <dd class="col-sm-9">
+                <img src="@Model.ImageUrl" alt="Ảnh bài viết" style="max-width: 300px; max-height: 300px;" />
+            </dd>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ArticleId" class="btn btn-primary">Sửa</a> |
+    <a asp-action="Index" class="btn btn-secondary">Quay lại Danh sách</a>
+</div>

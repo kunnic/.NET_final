@@ -1,0 +1,37 @@
+﻿@model news_project_mvc.Models.Category
+@{
+    ViewData["Title"] = "Xác nhận Xóa Danh mục";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>Bạn có chắc chắn muốn xóa danh mục này không?</h3>
+<div>
+    <h4>Thông tin danh mục</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Slug)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Slug)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" asp-route-id="@Model.CategoryId" method="post">
+        <input type="hidden" asp-for="CategoryId" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay lại danh sách</a>
+    </form>
+</div>

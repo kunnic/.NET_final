@@ -52,6 +52,47 @@ namespace news_project_mvc
                     ValidAudience = builder.Configuration["Jwt:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
                 };
+                options.Events = new JwtBearerEvents
+                {
+                    OnMessageReceived = context =>
+                    {
+                        // Cố gắng lấy token từ cookie "AuthToken"
+                        context.Token = context.Request.Cookies["AuthToken"];
+                        if (!string.IsNullOrEmpty(context.Token))
+                        {
+                            // Bạn có thể log ở đây để biết token có được đọc không
+                            // Ví dụ: var logger = context.HttpContext.RequestServices.GetRequiredService<ILogger<Program>>();
+                            // logger.LogInformation("Token found in cookie 'AuthToken'.");
+                            Console.WriteLine("Token found in cookie 'AuthToken'. Attempting to use.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Token NOT found in cookie 'AuthToken'.");
+                        }
+                        return Task.CompletedTask;
+                    },
+                    OnAuthenticationFailed = context =>
+                    {
+                        // Log lỗi chi tiết để biết tại sao token validation thất bại
+                        Console.WriteLine("Authentication failed: " + context.Exception.ToString());
+                        return Task.CompletedTask;
+                    },
+                    OnTokenValidated = context =>
+                    {
+                        // Token đã được validate thành công, Principal đã được tạo
+                        Console.WriteLine("Token validated for: " + context.Principal.Identity.Name);
+                        // Bạn có thể kiểm tra các claim ở đây:
+                        // var claims = context.Principal.Claims.Select(c => $"{c.Type}: {c.Value}");
+                        // Console.WriteLine("Claims: " + string.Join(", ", claims));
+                        return Task.CompletedTask;
+                    }
+                    // Bạn có thể thêm OnChallenge nếu cần theo dõi khi nào challenge được gọi
+                    // OnChallenge = context =>
+                    // {
+                    //     Console.WriteLine("OnChallenge invoked: " + context.ErrorDescription);
+                    //     return Task.CompletedTask;
+                    // }
+                };
             });
 
 
@@ -74,9 +115,16 @@ namespace news_project_mvc
             app.UseAuthentication();
             app.UseAuthorization();
 
+            // Cấu hình route cho Area Admin
+            app.MapControllerRoute(
+                name: "AdminArea", // Đặt tên cho route Area
+                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"); // {area:exists} đảm bảo chỉ khớp khi có Area
+
+            // Route mặc định phải đặt sau route Area
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
             using (var scope = app.Services.CreateScope())
             {

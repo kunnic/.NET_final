@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<style>
+    .dashboard-card {
+        transition: transform .2s ease-out, box-shadow .2s ease-out;
+    }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+        }
+
+        .dashboard-card .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 150px; /* Đảm bảo các card có chiều cao tương đối */
+        }
+
+        .dashboard-card .card-icon {
+            font-size: 2.5rem; /* Kích thước icon lớn hơn */
+            margin-bottom: 0.75rem;
+        }
+</style>
+
+<div class="container-fluid">
+    <div class="row mb-3">
+        <div class="col">
+            <h1 class="display-6">Chào mừng trở lại, Admin!</h1>
+            <p class="text-muted">Đây là trang tổng quan quản trị của bạn.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 dashboard-card">
+                <div class="card-body">
+                    <div class="card-icon text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h5 class="card-title">Quản lý Danh mục</h5>
+                    <p class="card-text">Xem, thêm, sửa, xóa danh mục bài viết.</p>
+                    <a asp-area="Admin" asp-controller="Categories" asp-action="Index" class="btn btn-primary stretched-link">Đi đến</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 dashboard-card">
+                <div class="card-body">
+                    <div class="card-icon text-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h5 class="card-title">Quản lý Bài viết</h5>
+                    <p class="card-text">Soạn thảo, xuất bản và quản lý các bài viết.</p>
+                    <a asp-area="Admin" asp-controller="Articles" asp-action="Index" class="btn btn-success stretched-link">Đi đến</a>
+                </div>
+            </div>
+        </div>
+
+        @* Thêm card khác nếu cần, ví dụ:
+        <div class="col-md-4 mb-4">
+            <div class="card text-center h-100 dashboard-card">
+                <div class="card-body">
+                    <div class="card-icon text-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h5 class="card-title">Quản lý Người dùng</h5>
+                    <p class="card-text">Quản lý tài khoản người dùng và phân quyền.</p>
+                    <a href="#" class="btn btn-info stretched-link">Đi đến</a> // Thay # bằng link thật
+                </div>
+            </div>
+        </div>
+        *@
+    </div>
+</div>

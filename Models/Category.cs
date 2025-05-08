@@ -15,7 +15,7 @@ namespace news_project_mvc.Models
         [Display(Name = "Tên danh mục")]
         public string Name { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Slug là bắt buộc.")]
+        //[Required(ErrorMessage = "Slug là bắt buộc.")]
         [StringLength(150, ErrorMessage = "Slug không được vượt quá 150 ký tự.")]
         [RegularExpression(@"^[a-z0-9]+(?:-[a-z0-9]+)*$", ErrorMessage = "Slug chỉ được chứa ký tự thường, số và dấu gạch ngang nối.")]
         public string Slug { get; set; } = string.Empty;

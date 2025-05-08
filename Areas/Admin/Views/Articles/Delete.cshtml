@@ -1,0 +1,110 @@
+﻿@model news_project_mvc.Models.Article
+
+@{
+    ViewData["Title"] = "Xác nhận Xóa Bài viết";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>Bạn có chắc chắn muốn xóa bài viết này không?</h3>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div>
+    <h4>Thông tin Bài viết</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Summary)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Summary)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Author.UserName)
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.Author != null ? Model.Author.UserName : "N/A")
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PublishedDate)
+        </dt>
+        <dd class="col-sm-9">
+            @* Sửa ở đây: Bỏ .HasValue và .Value *@
+            @if (Model.PublishedDate.Year > 1970) // Giả định năm > 1970 là ngày publish hợp lệ
+            {
+                @Html.DisplayFor(model => model.PublishedDate)
+            }
+            else
+            {
+                <span>Chưa xuất bản</span>
+            }
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.IsPublished)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.IsPublished)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ViewCount)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.UpdatedAt)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.UpdatedAt)
+        </dd>
+
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </dt>
+            <dd class="col-sm-9">
+                <img src="@Model.ImageUrl" alt="Ảnh bài viết" style="max-width: 200px; max-height: 200px;" />
+            </dd>
+        }
+    </dl>
+
+    <form asp-action="Delete" asp-route-id="@Model.ArticleId" method="post">
+        <input type="hidden" asp-for="ArticleId" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Quay lại Danh sách</a>
+    </form>
+</div>

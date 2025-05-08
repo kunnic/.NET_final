@@ -1,0 +1,139 @@
+﻿@using news_project_mvc.ViewModels
+@model AdminLoginViewModel
+
+@{
+    ViewData["Title"] = "Admin Log in";
+}
+
+<style>
+    .admin-login-page-container {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 15px;
+        min-height: calc(100vh - 200px);
+        box-sizing: border-box;
+    }
+
+    .admin-login-content {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .login-header h2 {
+        text-align: center;
+        color: #343a40;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .login-header .form-subtitle {
+        text-align: center;
+        color: #555;
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1.8rem;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    .form-floating label.form-label {
+        color: #495057;
+        font-size: 0.95rem;
+    }
+
+    .form-control {
+        min-height: calc(1.5em + 1.1rem + 2px);
+        padding: 0.85rem 1rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        border: 1px solid #ced4da;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.2);
+    }
+
+    .text-danger {
+        font-size: 0.875em;
+        margin-top: 0.25rem;
+    }
+
+    .validation-summary-errors ul {
+        padding-left: 20px;
+        margin-bottom: 1rem;
+        list-style-type: disc;
+    }
+
+    .validation-summary-errors li {
+        margin-bottom: 0.25rem;
+    }
+
+    /* Login button - match site's gradient and effects */
+    .btn-login-submit {
+        background: linear-gradient(90deg, #007bff, #0056b3); /* Match site's gradient */
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-radius: 6px;
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+    }
+
+    .btn-login-submit:hover {
+        transform: translateY(-2px); /* Match site's hover effect */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        color: #f0ad4e !important; /* Match hover color from navbar */
+    }
+
+    .btn-login-submit:active {
+        transform: translateY(0);
+    }
+</style>
+
+<div class="admin-login-page-container">
+    <div class="admin-login-content">
+        <div class="login-header">
+            <h2><i class="bi bi-shield-lock-fill me-2"></i>@ViewData["Title"]</h2>
+            <p class="form-subtitle">Sử dụng tài khoản quản trị của bạn để đăng nhập.</p>
+        </div>
+        <hr />
+        <form id="account" asp-controller="Account" asp-action="AdminLogin" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" novalidate>
+            
+            @if (!ViewData.ModelState.IsValid && ViewData.ModelState[""].Errors.Any())
+            {
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger text-danger validation-summary-errors" role="alert"></div>
+            }
+
+            <div class="form-floating mb-3">
+                <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Email" class="form-label">Email</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Password" type="password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                <label asp-for="Password" class="form-label">Mật khẩu</label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="mt-4 pt-2">
+                <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-login-submit">
+                    <i class="bi bi-box-arrow-in-right me-2"></i>Đăng nhập
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

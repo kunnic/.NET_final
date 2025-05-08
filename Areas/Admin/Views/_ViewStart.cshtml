@@ -1,0 +1,16 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace news_project_mvc.Areas.Admin.Controllers
+{
+    [Area("Admin")]
+    [Authorize(Roles = "Admin")] // Đảm bảo chỉ Admin mới truy cập được
+    public class DashboardController : Controller
+    {
+        public IActionResult Index()
+        {
+            ViewData["Title"] = "Tổng Quan";
+            return View();
+        }
+    }
+}
