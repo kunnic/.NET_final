@@ -3,28 +3,47 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
-    @if (SignInManager.IsSignedIn(User))
+    @* Debug info: ghi ra trạng thái đăng nhập khi render partial *@
+    @{
+        var isUserSignedIn = SignInManager.IsSignedIn(User);
+        var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        var userName = User.Identity?.Name;
+        // System.Diagnostics.Debug.WriteLine($"Is user signed in: {isUserSignedIn}, User ID: {userId}, User Name: {userName}");
+    }
+    
+    @if (isUserSignedIn)
     {
-        <li class="nav-item">
-            <span class="nav-link text-dark">Xin chào @User.Identity?.Name!</span>
-        </li>
-        <li class="nav-item">
-            <form class="form-inline" asp-controller="Account" asp-action="Logout" method="post">
-                @Html.AntiForgeryToken()
-                <button type="submit" class="nav-link btn btn-link text-dark">Đăng xuất</button>
-            </form>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i> Chào, @User.Identity?.Name!
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                @if (User.IsInRole("Admin"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                            <i class="bi bi-speedometer2"></i> Trang Quản Trị
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                }
+                <li>
+                    <form class="form-inline" asp-controller="Account" asp-action="Logout" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="dropdown-item">
+                            <i class="bi bi-box-arrow-right"></i> Đăng Xuất
+                        </button>
+                    </form>
+                </li>
+            </ul>
         </li>
     }
     else
     {
-        @* Hiện tại AccountController của bạn có AdminLogin. Nếu bạn có trang đăng ký chung, bạn có thể thêm link ở đây. *@
-        @*
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">Đăng Ký</a>
-    </li>
-    *@
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Account" asp-action="AdminLogin">Đăng Nhập</a>
+            <a class="nav-link" asp-controller="Account" asp-action="AdminLogin">
+                <i class="bi bi-box-arrow-in-right"></i> Đăng Nhập Admin
+            </a>
         </li>
     }
 </ul>

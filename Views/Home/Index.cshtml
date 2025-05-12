@@ -1,16 +1,186 @@
-﻿@{
-    ViewData["Title"] = "Trang Chủ";
+﻿@model IEnumerable<news_project_mvc.Models.Article>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+
+    var pageNumber = ViewData["PageNumber"] != null ? (int)ViewData["PageNumber"] : 1;
+    var totalPages = ViewData["TotalPages"] != null ? (int)ViewData["TotalPages"] : 1;
+    var hasPreviousPage = ViewData["HasPreviousPage"] != null ? (bool)ViewData["HasPreviousPage"] : false;
+    var hasNextPage = ViewData["HasNextPage"] != null ? (bool)ViewData["HasNextPage"] : false;
+    var currentSearch = ViewData["CurrentSearch"] as string;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Chào mừng đến với Trang Tin Tức</h1>
-    <p>Đây là trang chủ được thiết kế lại một cách đơn giản.</p>
+@section Styles {
+    <link rel="stylesheet" href="~/css/home-styles.css" asp-append-version="true">
+}
+
+<div class="hero-section mb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 fw-bold mb-3">.NET Final</h1>
+                <p class="lead mb-4">3. News page (general, entertainment, sports...)</p>                <div class="search-container">
+                    <form asp-controller="Home" asp-action="Search" method="get" class="d-flex">
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Nhập từ khóa tìm kiếm..." 
+                                   aria-label="Search" name="searchString" value="@currentSearch">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="bi bi-search me-1"></i> Tìm kiếm
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="row mt-4">
-    <div class="col-md-12">
-        <h2>Tin tức nổi bật</h2>
-        <p>Phần này bạn có thể dùng để hiển thị các bài viết nổi bật hoặc thông tin quan trọng.</p>
-        бъдеще (future content for featured news)
-    </div>
+<div class="container">
+    @if (!Model.Any() && !string.IsNullOrEmpty(currentSearch))
+    {
+        <div class="alert alert-warning text-center" role="alert">
+            <i class="bi bi-exclamation-triangle me-2"></i>
+            Không tìm thấy bài viết nào phù hợp với từ khóa "<strong>@currentSearch</strong>".
+        </div>
+    }
+    else if (!Model.Any())
+    {
+        <div class="alert alert-info text-center" role="alert">
+            <i class="bi bi-info-circle me-2"></i>
+            Hiện tại chưa có bài viết nào được xuất bản. Vui lòng quay lại sau!
+        </div>
+    }
+    else
+    {
+        if (!string.IsNullOrEmpty(currentSearch))
+        {
+            <div class="search-results mb-4">
+                <h5 class="text-muted">
+                    <i class="bi bi-search me-2"></i>
+                    Kết quả tìm kiếm cho: "<strong>@currentSearch</strong>"
+                </h5>
+            </div>
+        }
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var article in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 article-card">                        <div class="card-img-container">
+                            @if (!string.IsNullOrEmpty(article.ImageUrl))
+                            {
+                                <a asp-controller="Home" asp-action="Details" asp-route-id="@article.ArticleId">
+                                    <img src="@article.ImageUrl" class="card-img-top article-card-img" alt="@article.Title"
+                                         onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Ảnh+bị+lỗi';">
+                                </a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Home" asp-action="Details" asp-route-id="@article.ArticleId">
+                                    <img src="https://placehold.co/600x400/EFEFEF/777777?text=Chưa+có+ảnh" class="card-img-top article-card-img" alt="Chưa có ảnh">
+                                </a>
+                            }
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                <a asp-controller="Home" asp-action="Details" asp-route-id="@article.ArticleId" class="text-decoration-none article-title-link">
+                                    @article.Title
+                                </a>
+                            </h5>
+
+                            @if (article.Category != null)
+                            {
+                                <p class="card-text mb-2">                                    <a asp-controller="CategoryFrontend" asp-action="Details" asp-route-slug="@article.Category.Slug" class="category-badge">
+                                        <i class="bi bi-bookmark-fill me-1"></i>@article.Category.Name
+                                    </a>
+                                </p>
+                            }
+
+                            <p class="card-text article-summary flex-grow-1">
+                                @{
+                                    var summary = "";
+                                    if (!string.IsNullOrWhiteSpace(article.Summary))
+                                    {
+                                        summary = article.Summary;
+                                    }
+                                    else if (!string.IsNullOrWhiteSpace(article.Content))
+                                    {
+                                        var plainTextContent = System.Text.RegularExpressions.Regex.Replace(article.Content, "<.*?>", string.Empty);
+                                        summary = plainTextContent.Length > 150 ? plainTextContent.Substring(0, 150) + "..." : plainTextContent;
+                                    }
+                                    else
+                                    {
+                                        summary = "Không có tóm tắt.";
+                                    }
+                                }
+                                @summary
+                            </p>
+                            
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <div class="article-meta">
+                                    <small>
+                                        <i class="bi bi-calendar3 me-1"></i>@article.PublishedDate.ToString("dd/MM/yyyy")
+                                        @if (article.Author != null && !string.IsNullOrEmpty(article.Author.UserName))
+                                        {
+                                            <span class="ms-2"><i class="bi bi-person me-1"></i>@article.Author.UserName</span>
+                                        }
+                                    </small>
+                                </div>
+                                <a asp-controller="Home" asp-action="Details" asp-route-id="@article.ArticleId" class="btn btn-sm btn-outline-primary read-more">
+                                    Đọc tiếp <i class="bi bi-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (totalPages > 1)
+        {
+            <nav aria-label="Page navigation" class="mt-5">
+                <ul class="pagination justify-content-center">                    @if (hasPreviousPage)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-controller="Home" asp-action="@(string.IsNullOrEmpty(currentSearch) ? "Index" : "Search")" asp-route-pageNumber="@(pageNumber - 1)" asp-route-searchString="@currentSearch" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="visually-hidden">Trang trước</span>
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="visually-hidden">Trang trước</span>
+                            </a>
+                        </li>
+                    }                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        <li class="page-item @(i == pageNumber ? "active" : "")">
+                            <a class="page-link" asp-controller="Home" asp-action="@(string.IsNullOrEmpty(currentSearch) ? "Index" : "Search")" asp-route-pageNumber="@i" asp-route-searchString="@currentSearch">@i</a>
+                        </li>
+                    }                    @if (hasNextPage)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-controller="Home" asp-action="@(string.IsNullOrEmpty(currentSearch) ? "Index" : "Search")" asp-route-pageNumber="@(pageNumber + 1)" asp-route-searchString="@currentSearch" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="visually-hidden">Trang sau</span>
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="visually-hidden">Trang sau</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
+    }
 </div>

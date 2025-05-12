@@ -11,13 +11,12 @@ namespace news_project_mvc.Models
         public int CategoryId { get; set; }
 
         [Required(ErrorMessage = "Tên danh mục là bắt buộc.")]
-        [StringLength(150, ErrorMessage = "Tên danh mục không được vượt quá 150 ký tự.")]
-        [Display(Name = "Tên danh mục")]
-        public string Name { get; set; } = string.Empty;
-
-        //[Required(ErrorMessage = "Slug là bắt buộc.")]
+        [StringLength(150, ErrorMessage = "Tên danh mục không được vượt quá 150 ký tự.")]        [Display(Name = "Tên danh mục")]
+        public string Name { get; set; } = string.Empty;        
+        
         [StringLength(150, ErrorMessage = "Slug không được vượt quá 150 ký tự.")]
-        [RegularExpression(@"^[a-z0-9]+(?:-[a-z0-9]+)*$", ErrorMessage = "Slug chỉ được chứa ký tự thường, số và dấu gạch ngang nối.")]
+        [RegularExpression(@"^[a-z0-9]+(?:-[a-z0-9]+)*$", ErrorMessage = "Slug chỉ được chứa ký tự thường, số và dấu gạch ngang nối.", MatchTimeoutInMilliseconds = 1000)]
+        [Display(Name = "Slug (Đường dẫn)")]
         public string Slug { get; set; } = string.Empty;
 
         [StringLength(500, ErrorMessage = "Mô tả không được vượt quá 500 ký tự.")]

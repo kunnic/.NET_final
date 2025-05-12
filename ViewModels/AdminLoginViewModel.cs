@@ -11,5 +11,8 @@ namespace news_project_mvc.ViewModels
         [Required(ErrorMessage = "Vui lòng nhập mật khẩu.")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        
+        [Display(Name = "Ghi nhớ đăng nhập")]
+        public bool RememberMe { get; set; }
     }
 }

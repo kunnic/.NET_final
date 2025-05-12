@@ -8069,11 +8069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\news_project_mvc.csproj",
+      "projectUniqueName": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\news_project_mvc.csproj",
       "projectName": "news_project_mvc",
-      "projectPath": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\news_project_mvc.csproj",
+      "projectPath": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\news_project_mvc.csproj",
       "packagesPath": "C:\\Users\\kunnic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\",
+      "outputPath": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

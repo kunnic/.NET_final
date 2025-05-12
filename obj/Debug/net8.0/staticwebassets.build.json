@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wwb3X7E05/9krRT82wvR2aEGSuQSS6ZUrzlrvQIU1gA=",
+  "Hash": "7BpPwX4H5N3Hs284ttvMnNoSC/T4FMoCxTbBvUxIO9s=",
   "Source": "news_project_mvc",
   "BasePath": "_content/news_project_mvc",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "news_project_mvc\\wwwroot",
       "Source": "news_project_mvc",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\kunnic\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "news_project_mvc#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "WX2WARHPOGLrm8H/D8LJTbqLUJ05cqIm8UkyxDskWwU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css"
+      "OriginalItemSpec": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "news_project_mvc#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,181 @@
       "Integrity": "WX2WARHPOGLrm8H/D8LJTbqLUJ05cqIm8UkyxDskWwU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/admin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m0lb9zhabm",
+      "Integrity": "JuTUp3alqP13ZL+VQ1Uu8+mL2lDV9MMVdR/5ezHIBGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-login.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/admin-login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9zb8wc4hop",
+      "Integrity": "W8FbGadlkQygR0SDxVHA2wT0rv9v4Yu+zSe3iLAze8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin-login.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-styles.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/admin-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q7b7ujkpok",
+      "Integrity": "hr75J6EOCFg6fxbeJdIg/VehRgg61uINCaNsiXZFG4w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin-styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-editor.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/article-editor#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ridxjn4czj",
+      "Integrity": "s7HpW3QdjG0tJhuloCVrbC5rrYZSwlkDWTKx92Ctqis=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\article-editor.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-styles.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/article-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ztq181ogyn",
+      "Integrity": "6ZXbPk+m4OqI/peNMMq43isjC2axTrRaXSZnGlrBHdo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\article-styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\category-styles.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/category-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4w0hmzq30k",
+      "Integrity": "xMAGOcssckAlrpFL34yLuTycF5GLttyXiRTSf4h1aVI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\category-styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\emergency-admin-styles.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/emergency-admin-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6v1p1vjkzm",
+      "Integrity": "Tn00MpSxjwGgVI7wz2UB3qyBvIiw7NAiivMDO1szoEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\emergency-admin-styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\home-styles.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "css/home-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pprv4gmfi2",
+      "Integrity": "832NAtp8MBjaZ0cfHzaA5BoD8m9I3BTDD9ZSGm4hccQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home-styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\site.css",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\favicon.ico",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1361,10 +1529,115 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "js/admin#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5q9ybw25lv",
+      "Integrity": "vTCtTwAS4yRFsl0WqIj81YjYpsufw/n35G0Tl9DvSj4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin.js"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin-scripts.js",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "js/admin-scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kl0dhcxb3",
+      "Integrity": "14HLg7eU1AfbH/ksJ10cuLyQ2Bf4b+u22BxINm+3Jl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin-scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\article-editor.js",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "js/article-editor#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "unbi7d81ga",
+      "Integrity": "dnkmDzpcE4CTV+hOeI9JHn06DospVu4qFu/uOpetj7s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\article-editor.js"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\auth-debug.js",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "js/auth-debug#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eugafd1v72",
+      "Integrity": "Ovk1bJa6YnPUX2gkf5T9X9+quXJQCNXEbgEByfW/zcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\auth-debug.js"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\category-form.js",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
+      "BasePath": "_content/news_project_mvc",
+      "RelativePath": "js/category-form#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53yvglsqwh",
+      "Integrity": "UYJ8ho7rYf9GhfgmFpoSRbK9hWcfe2zm/Ip00s4Y4NU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\category-form.js"
+    },
+    {
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\site.js",
+      "SourceId": "news_project_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1403,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1550,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1739,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1781,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1823,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1865,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1907,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1928,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1949,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1991,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2012,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2033,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2054,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2075,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2096,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2117,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2138,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2180,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2201,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2222,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2264,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2306,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2327,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2348,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2369,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2390,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2411,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2432,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2474,10 +2747,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2495,10 +2768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2516,10 +2789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2537,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2558,10 +2831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "news_project_mvc",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\",
       "BasePath": "_content/news_project_mvc",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2581,8 +2854,664 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/admin.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JuTUp3alqP13ZL+VQ1Uu8+mL2lDV9MMVdR/5ezHIBGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JuTUp3alqP13ZL+VQ1Uu8+mL2lDV9MMVdR/5ezHIBGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.m0lb9zhabm.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JuTUp3alqP13ZL+VQ1Uu8+mL2lDV9MMVdR/5ezHIBGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0lb9zhabm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JuTUp3alqP13ZL+VQ1Uu8+mL2lDV9MMVdR/5ezHIBGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-login.9zb8wc4hop.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8FbGadlkQygR0SDxVHA2wT0rv9v4Yu+zSe3iLAze8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9zb8wc4hop"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8FbGadlkQygR0SDxVHA2wT0rv9v4Yu+zSe3iLAze8s="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-login.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8FbGadlkQygR0SDxVHA2wT0rv9v4Yu+zSe3iLAze8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8FbGadlkQygR0SDxVHA2wT0rv9v4Yu+zSe3iLAze8s="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hr75J6EOCFg6fxbeJdIg/VehRgg61uINCaNsiXZFG4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:15:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hr75J6EOCFg6fxbeJdIg/VehRgg61uINCaNsiXZFG4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-styles.q7b7ujkpok.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hr75J6EOCFg6fxbeJdIg/VehRgg61uINCaNsiXZFG4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:15:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q7b7ujkpok"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hr75J6EOCFg6fxbeJdIg/VehRgg61uINCaNsiXZFG4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/article-editor.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-editor.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7HpW3QdjG0tJhuloCVrbC5rrYZSwlkDWTKx92Ctqis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:52:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7HpW3QdjG0tJhuloCVrbC5rrYZSwlkDWTKx92Ctqis="
+        }
+      ]
+    },
+    {
+      "Route": "css/article-editor.ridxjn4czj.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-editor.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7HpW3QdjG0tJhuloCVrbC5rrYZSwlkDWTKx92Ctqis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 16:52:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ridxjn4czj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/article-editor.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7HpW3QdjG0tJhuloCVrbC5rrYZSwlkDWTKx92Ctqis="
+        }
+      ]
+    },
+    {
+      "Route": "css/article-styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ZXbPk+m4OqI/peNMMq43isjC2axTrRaXSZnGlrBHdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ZXbPk+m4OqI/peNMMq43isjC2axTrRaXSZnGlrBHdo="
+        }
+      ]
+    },
+    {
+      "Route": "css/article-styles.ztq181ogyn.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\article-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ZXbPk+m4OqI/peNMMq43isjC2axTrRaXSZnGlrBHdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ztq181ogyn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/article-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ZXbPk+m4OqI/peNMMq43isjC2axTrRaXSZnGlrBHdo="
+        }
+      ]
+    },
+    {
+      "Route": "css/category-styles.4w0hmzq30k.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\category-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMAGOcssckAlrpFL34yLuTycF5GLttyXiRTSf4h1aVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4w0hmzq30k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/category-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMAGOcssckAlrpFL34yLuTycF5GLttyXiRTSf4h1aVI="
+        }
+      ]
+    },
+    {
+      "Route": "css/category-styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\category-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMAGOcssckAlrpFL34yLuTycF5GLttyXiRTSf4h1aVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMAGOcssckAlrpFL34yLuTycF5GLttyXiRTSf4h1aVI="
+        }
+      ]
+    },
+    {
+      "Route": "css/emergency-admin-styles.6v1p1vjkzm.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\emergency-admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tn00MpSxjwGgVI7wz2UB3qyBvIiw7NAiivMDO1szoEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v1p1vjkzm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/emergency-admin-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tn00MpSxjwGgVI7wz2UB3qyBvIiw7NAiivMDO1szoEg="
+        }
+      ]
+    },
+    {
+      "Route": "css/emergency-admin-styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\emergency-admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tn00MpSxjwGgVI7wz2UB3qyBvIiw7NAiivMDO1szoEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tn00MpSxjwGgVI7wz2UB3qyBvIiw7NAiivMDO1szoEg="
+        }
+      ]
+    },
+    {
+      "Route": "css/home-styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\home-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"832NAtp8MBjaZ0cfHzaA5BoD8m9I3BTDD9ZSGm4hccQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-832NAtp8MBjaZ0cfHzaA5BoD8m9I3BTDD9ZSGm4hccQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/home-styles.pprv4gmfi2.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\home-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"832NAtp8MBjaZ0cfHzaA5BoD8m9I3BTDD9ZSGm4hccQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pprv4gmfi2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-832NAtp8MBjaZ0cfHzaA5BoD8m9I3BTDD9ZSGm4hccQ="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2627,7 +3556,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2664,7 +3593,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2709,7 +3638,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4965,8 +5894,418 @@
       ]
     },
     {
+      "Route": "js/admin.5q9ybw25lv.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vTCtTwAS4yRFsl0WqIj81YjYpsufw/n35G0Tl9DvSj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5q9ybw25lv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vTCtTwAS4yRFsl0WqIj81YjYpsufw/n35G0Tl9DvSj4="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vTCtTwAS4yRFsl0WqIj81YjYpsufw/n35G0Tl9DvSj4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 14:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vTCtTwAS4yRFsl0WqIj81YjYpsufw/n35G0Tl9DvSj4="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-scripts.9kl0dhcxb3.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin-scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14HLg7eU1AfbH/ksJ10cuLyQ2Bf4b+u22BxINm+3Jl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9kl0dhcxb3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-14HLg7eU1AfbH/ksJ10cuLyQ2Bf4b+u22BxINm+3Jl0="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-scripts.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\admin-scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14HLg7eU1AfbH/ksJ10cuLyQ2Bf4b+u22BxINm+3Jl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-14HLg7eU1AfbH/ksJ10cuLyQ2Bf4b+u22BxINm+3Jl0="
+        }
+      ]
+    },
+    {
+      "Route": "js/article-editor.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\article-editor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnkmDzpcE4CTV+hOeI9JHn06DospVu4qFu/uOpetj7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 05:12:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnkmDzpcE4CTV+hOeI9JHn06DospVu4qFu/uOpetj7s="
+        }
+      ]
+    },
+    {
+      "Route": "js/article-editor.unbi7d81ga.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\article-editor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnkmDzpcE4CTV+hOeI9JHn06DospVu4qFu/uOpetj7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 05:12:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "unbi7d81ga"
+        },
+        {
+          "Name": "label",
+          "Value": "js/article-editor.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnkmDzpcE4CTV+hOeI9JHn06DospVu4qFu/uOpetj7s="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth-debug.eugafd1v72.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\auth-debug.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ovk1bJa6YnPUX2gkf5T9X9+quXJQCNXEbgEByfW/zcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eugafd1v72"
+        },
+        {
+          "Name": "label",
+          "Value": "js/auth-debug.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ovk1bJa6YnPUX2gkf5T9X9+quXJQCNXEbgEByfW/zcU="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth-debug.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\auth-debug.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ovk1bJa6YnPUX2gkf5T9X9+quXJQCNXEbgEByfW/zcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ovk1bJa6YnPUX2gkf5T9X9+quXJQCNXEbgEByfW/zcU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category-form.53yvglsqwh.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\category-form.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UYJ8ho7rYf9GhfgmFpoSRbK9hWcfe2zm/Ip00s4Y4NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 05:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53yvglsqwh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/category-form.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UYJ8ho7rYf9GhfgmFpoSRbK9hWcfe2zm/Ip00s4Y4NU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category-form.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\category-form.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UYJ8ho7rYf9GhfgmFpoSRbK9hWcfe2zm/Ip00s4Y4NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 05:57:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UYJ8ho7rYf9GhfgmFpoSRbK9hWcfe2zm/Ip00s4Y4NU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5003,7 +6342,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5048,7 +6387,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5085,7 +6424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5130,7 +6469,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5167,7 +6506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5212,7 +6551,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5249,7 +6588,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5294,7 +6633,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5331,7 +6670,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5376,7 +6715,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5413,7 +6752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5458,7 +6797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5495,7 +6834,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5540,7 +6879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5577,7 +6916,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5622,7 +6961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5659,7 +6998,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5704,7 +7043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5749,7 +7088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5786,7 +7125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5823,7 +7162,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5868,7 +7207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5905,7 +7244,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5950,7 +7289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5987,7 +7326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6032,7 +7371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6069,7 +7408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6114,7 +7453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6151,7 +7490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6188,7 +7527,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6225,7 +7564,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6270,7 +7609,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6315,7 +7654,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6360,7 +7699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6405,7 +7744,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6442,7 +7781,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6487,7 +7826,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6524,7 +7863,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6561,7 +7900,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6598,7 +7937,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6643,7 +7982,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6688,7 +8027,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6733,7 +8072,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6770,7 +8109,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6815,7 +8154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6852,7 +8191,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6889,7 +8228,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6926,7 +8265,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6971,7 +8310,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7016,7 +8355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7053,7 +8392,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7098,7 +8437,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7135,7 +8474,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7180,7 +8519,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7217,7 +8556,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7254,7 +8593,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7299,7 +8638,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7344,7 +8683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7381,7 +8720,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7426,7 +8765,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7463,7 +8802,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7500,7 +8839,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7545,7 +8884,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7582,7 +8921,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7627,7 +8966,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7672,7 +9011,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7709,7 +9048,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7754,7 +9093,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7791,7 +9130,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7836,7 +9175,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7881,7 +9220,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7918,7 +9257,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7963,7 +9302,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8000,7 +9339,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8037,7 +9376,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8082,7 +9421,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8119,7 +9458,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8164,7 +9503,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8201,7 +9540,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8238,7 +9577,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8283,7 +9622,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8328,7 +9667,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8365,7 +9704,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8410,7 +9749,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8447,7 +9786,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8484,7 +9823,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8521,7 +9860,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8566,7 +9905,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8611,7 +9950,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8656,7 +9995,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8693,7 +10032,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8738,7 +10077,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8783,7 +10122,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8820,7 +10159,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8865,7 +10204,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8910,7 +10249,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8947,7 +10286,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8984,7 +10323,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9029,7 +10368,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9066,7 +10405,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9111,7 +10450,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9148,7 +10487,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9193,7 +10532,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9230,7 +10569,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9267,7 +10606,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9312,7 +10651,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9349,7 +10688,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9394,7 +10733,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9431,7 +10770,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9476,7 +10815,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9521,7 +10860,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9558,7 +10897,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9603,7 +10942,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9640,7 +10979,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9685,7 +11024,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9722,7 +11061,7 @@
     },
     {
       "Route": "news_project_mvc.70uj0x0ldd.bundle.scp.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9767,7 +11106,7 @@
     },
     {
       "Route": "news_project_mvc.70uj0x0ldd.styles.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9812,7 +11151,7 @@
     },
     {
       "Route": "news_project_mvc.bundle.scp.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\news_project_mvc.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9849,7 +11188,7 @@
     },
     {
       "Route": "news_project_mvc.styles.css",
-      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
+      "AssetFile": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\news_project_mvc.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

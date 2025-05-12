@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -76,9 +77,7 @@ namespace news_project_mvc.Controllers
                                 return View(model);
                             }
 
-                            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
-
-                            var token = new JwtSecurityToken(
+                            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));                            var token = new JwtSecurityToken(
                                 issuer: jwtIssuer,
                                 audience: jwtAudience,
                                 expires: DateTime.UtcNow.AddMinutes(jwtDurationInMinutes),
@@ -87,7 +86,8 @@ namespace news_project_mvc.Controllers
                             );
 
                             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
-
+                            
+                            // Thêm JWT vào cookie
                             Response.Cookies.Append("AuthToken", tokenString, new CookieOptions
                             {
                                 HttpOnly = true,
@@ -95,6 +95,11 @@ namespace news_project_mvc.Controllers
                                 SameSite = SameSiteMode.Strict,
                                 Expires = DateTimeOffset.UtcNow.AddMinutes(jwtDurationInMinutes)
                             });
+                            
+                            // Sign in với ASP.NET Core Identity để cookie authentication hoạt động
+                            await _signInManager.SignOutAsync(); // Logout trước để tránh xung đột
+                            await _signInManager.SignInAsync(user, isPersistent: model.RememberMe);
+                            _logger.LogInformation($"User {user.Email} logged in with identity.");
 
                             return RedirectToLocal(returnUrl);
                         }
@@ -118,14 +123,14 @@ namespace news_project_mvc.Controllers
             }
 
             return View(model);
-        }
-
-        [HttpPost]
+        }        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
+            // Đăng xuất khỏi ASP.NET Core Identity
             await _signInManager.SignOutAsync();
 
+            // Xóa Cookie JWT
             if (Request.Cookies.ContainsKey("AuthToken"))
             {
                 Response.Cookies.Delete("AuthToken", new CookieOptions
@@ -135,7 +140,11 @@ namespace news_project_mvc.Controllers
                     SameSite = SameSiteMode.Strict
                 });
             }
-            _logger.LogInformation("User logged out.");
+
+            await HttpContext.SignOutAsync(IdentityConstants.ApplicationScheme);
+            await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+
+            _logger.LogInformation("User logged out completely.");
 
             return RedirectToAction("Index", "Home");
         }

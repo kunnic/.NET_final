@@ -31,9 +31,8 @@
         </dd>
         <dt class="col-sm-3">
             Nội dung
-        </dt>
-        <dd class="col-sm-9">
-            @Html.Raw(Model.Content) {{-- Hiển thị HTML nếu nội dung là HTML --}}
+        </dt>        <dd class="col-sm-9">
+            @Html.Raw(Model.Content)
         </dd>
         <dt class="col-sm-3">
             @Html.DisplayNameFor(model => model.Category.Name)

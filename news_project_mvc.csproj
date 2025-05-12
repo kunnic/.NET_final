@@ -19,10 +19,20 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.4.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.9.0" />
   </ItemGroup>
-
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
+  <!-- Ensure admin assets are included -->
+  <ItemGroup>
+    <Content Update="wwwroot\css\admin.css" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="wwwroot\css\admin-styles.css" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="wwwroot\css\emergency-admin-styles.css" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="wwwroot\js\admin-scripts.js" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <!-- Direct copy of admin assets without external scripts -->
+  <Target Name="CopyAdminAssets" BeforeTargets="BeforePublish">
+    <Message Text="Ensuring admin assets are properly copied..." Importance="high" />
+  </Target>
 
 </Project>

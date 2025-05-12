@@ -2,78 +2,156 @@
     ViewData["Title"] = "Dashboard";
 }
 
-<style>
-    .dashboard-card {
-        transition: transform .2s ease-out, box-shadow .2s ease-out;
-    }
-
-        .dashboard-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        }
-
-        .dashboard-card .card-body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 150px; /* Đảm bảo các card có chiều cao tương đối */
-        }
-
-        .dashboard-card .card-icon {
-            font-size: 2.5rem; /* Kích thước icon lớn hơn */
-            margin-bottom: 0.75rem;
-        }
-</style>
-
 <div class="container-fluid">
-    <div class="row mb-3">
-        <div class="col">
-            <h1 class="display-6">Chào mừng trở lại, Admin!</h1>
-            <p class="text-muted">Đây là trang tổng quan quản trị của bạn.</p>
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h1 class="card-title">Chào mừng trở lại, Admin!</h1>
+                            <p class="text-muted">Đây là trang tổng quan quản trị của hệ thống tin tức.</p>
+                        </div>
+                        <div class="search-container">
+                            <form asp-controller="Dashboard" asp-action="Search" method="get" class="d-flex">
+                                <div class="input-group">
+                                    <input type="search" class="form-control" placeholder="Tìm kiếm bài viết..." 
+                                          aria-label="Search" name="searchTerm">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="bi bi-search me-1"></i> Tìm kiếm
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mb-4">
+        <div class="col-md-3 mb-4">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="bi bi-file-earmark-text"></i>
+                </div>
+                <div class="stat-number">@ViewBag.ArticleCount</div>
+                <div class="stat-title">Bài viết</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="bi bi-folder"></i>
+                </div>
+                <div class="stat-number">@ViewBag.CategoryCount</div>
+                <div class="stat-title">Danh mục</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="bi bi-eye"></i>
+                </div>
+                <div class="stat-number">@ViewBag.TotalViews</div>
+                <div class="stat-title">Lượt xem</div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="bi bi-calendar3"></i>
+                </div>
+                <div class="stat-number">@DateTime.Now.ToString("dd/MM")</div>
+                <div class="stat-title">Ngày hiện tại</div>
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <div class="card text-center h-100 dashboard-card">
-                <div class="card-body">
-                    <div class="card-icon text-primary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                    </div>
-                    <h5 class="card-title">Quản lý Danh mục</h5>
-                    <p class="card-text">Xem, thêm, sửa, xóa danh mục bài viết.</p>
-                    <a asp-area="Admin" asp-controller="Categories" asp-action="Index" class="btn btn-primary stretched-link">Đi đến</a>
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quản lý nội dung</h5>
                 </div>
-            </div>
-        </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 dashboard-card">
+                                <div class="card-body">
+                                    <div class="card-icon text-primary">
+                                        <i class="bi bi-folder-fill fs-1"></i>
+                                    </div>
+                                    <h5 class="card-title mt-3">Quản lý Danh mục</h5>
+                                    <p class="card-text">Xem, thêm, sửa, xóa danh mục bài viết.</p>
+                                    <a asp-area="Admin" asp-controller="Categories" asp-action="Index" class="btn btn-primary stretched-link">
+                                        <i class="bi bi-arrow-right-circle me-1"></i> Đi đến
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
-        <div class="col-md-4 mb-4">
-            <div class="card text-center h-100 dashboard-card">
-                <div class="card-body">
-                    <div class="card-icon text-success">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 dashboard-card">
+                                <div class="card-body">
+                                    <div class="card-icon text-success">
+                                        <i class="bi bi-file-earmark-text-fill fs-1"></i>
+                                    </div>
+                                    <h5 class="card-title mt-3">Quản lý Bài viết</h5>
+                                    <p class="card-text">Soạn thảo, xuất bản và quản lý các bài viết.</p>
+                                    <a asp-area="Admin" asp-controller="Articles" asp-action="Index" class="btn btn-success stretched-link">
+                                        <i class="bi bi-arrow-right-circle me-1"></i> Đi đến
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="card-title">Quản lý Bài viết</h5>
-                    <p class="card-text">Soạn thảo, xuất bản và quản lý các bài viết.</p>
-                    <a asp-area="Admin" asp-controller="Articles" asp-action="Index" class="btn btn-success stretched-link">Đi đến</a>
                 </div>
             </div>
         </div>
-
-        @* Thêm card khác nếu cần, ví dụ:
-        <div class="col-md-4 mb-4">
-            <div class="card text-center h-100 dashboard-card">
-                <div class="card-body">
-                    <div class="card-icon text-info">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Hoạt động gần đây</h5>
+                </div>                <div class="card-body p-0">
+                    <div class="timeline">
+                        @if (ViewBag.RecentArticles != null && ViewBag.RecentArticles.Count > 0)
+                        {
+                            foreach (var article in ViewBag.RecentArticles)
+                            {
+                                <div class="timeline-item">
+                                    <div class="timeline-badge"></div>
+                                    <div class="timeline-content">
+                                        <p class="mb-1">
+                                            <span class="fw-medium">@article.Title</span>
+                                            @if (article.IsPublished)
+                                            {
+                                                <span class="badge bg-success ms-1">Đã xuất bản</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-secondary ms-1">Chưa xuất bản</span>
+                                            }
+                                        </p>
+                                        <p class="timeline-date">
+                                            <i class="bi bi-clock me-1"></i> 
+                                            @(article.PublishedDate.Year > 1970 ? article.PublishedDate.ToString("HH:mm dd/MM/yyyy") : article.CreatedAt.ToString("HH:mm dd/MM/yyyy"))
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="text-center py-4">
+                                <i class="bi bi-calendar-x display-6 text-muted mb-3"></i>
+                                <p class="text-muted">Chưa có hoạt động nào gần đây.</p>
+                            </div>
+                        }
                     </div>
-                    <h5 class="card-title">Quản lý Người dùng</h5>
-                    <p class="card-text">Quản lý tài khoản người dùng và phân quyền.</p>
-                    <a href="#" class="btn btn-info stretched-link">Đi đến</a> // Thay # bằng link thật
                 </div>
             </div>
         </div>
-        *@
     </div>
 </div>

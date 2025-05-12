@@ -2,88 +2,239 @@
 
 @{
     ViewData["Title"] = "Quản lý Bài viết";
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml"; // Đảm bảo bạn có Layout này
 }
 
-<h1>@ViewData["Title"]</h1>
-
-<p>
-    <a asp-action="Create" class="btn btn-primary">Thêm Bài viết mới</a>
-</p>
-
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success">
-        @TempData["SuccessMessage"]
+<div class="card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0">@ViewData["Title"]</h5>
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle me-1"></i> Thêm Bài viết mới
+            </a>
+        </div>        <div class="filter-section collapse" id="filterSection">
+            <form asp-action="Index" method="get" class="filter-form p-3 bg-light rounded border mb-3">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <label class="form-label">Tiêu đề</label>
+                        <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Tìm theo tiêu đề...">
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Danh mục</label>
+                        <select name="categoryId" class="form-select">
+                            <option value="">Tất cả danh mục</option>
+                            @foreach (var category in ViewBag.Categories ?? new List<dynamic>())
+                            {                                @if (ViewBag.SelectedCategoryId == category.CategoryId)
+                                {
+                                    <option value="@category.CategoryId" selected>@category.Name</option>
+                                }
+                                else
+                                {
+                                    <option value="@category.CategoryId">@category.Name</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Trạng thái</label>
+                        <select name="publishStatus" class="form-select">
+                            <option value="">Tất cả trạng thái</option>                            @if (ViewBag.PublishStatus == "true")
+                            {
+                                <option value="true" selected>Đã xuất bản</option>
+                            }
+                            else
+                            {
+                                <option value="true">Đã xuất bản</option>
+                            }
+                            
+                            @if (ViewBag.PublishStatus == "false")
+                            {
+                                <option value="false" selected>Chưa xuất bản</option>
+                            }
+                            else
+                            {
+                                <option value="false">Chưa xuất bản</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-end">
+                        <div class="d-grid gap-2 w-100">
+                            <button type="submit" class="btn btn-info">
+                                <i class="bi bi-search me-1"></i> Tìm kiếm
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="d-flex justify-content-end mt-2">
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#filterSection">
+                <i class="bi bi-funnel me-1"></i> Bộ lọc
+            </button>
+        </div>
     </div>
-}
-@if (TempData["ErrorMessage"] != null)
-{
-    <div class="alert alert-danger">
-        @TempData["ErrorMessage"]
-    </div>
-}
-
-<table class="table table-striped table-hover">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.First().Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.First().Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.First().Author)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.First().PublishedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.First().IsPublished)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.First().ViewCount)
-            </th>
-            <th>Hành động</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Category.Name)
-                </td>
-                <td>
-                    @(item.Author != null ? item.Author.UserName : "N/A")
-                </td>
-                <td>
-                    @* Sửa ở đây: Bỏ .HasValue và .Value *@
-                    @if (item.PublishedDate.Year > 1970) // Giả định năm > 1970 là ngày publish hợp lệ
+      <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-admin">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.First().Title)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.First().Category)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.First().Author)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.First().PublishedDate)
+                        </th>
+                        <th>
+                            <i class="bi bi-check-circle me-1"></i>
+                            @Html.DisplayNameFor(model => model.First().IsPublished)
+                        </th>
+                        <th>
+                            <i class="bi bi-eye me-1"></i>
+                            @Html.DisplayNameFor(model => model.First().ViewCount)
+                        </th>
+                        <th class="text-center">Hành động</th>
+                    </tr>
+                </thead>    <tbody>
+                    @if (Model.Any())
                     {
-                        @Html.DisplayFor(modelItem => item.PublishedDate)
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <span class="fw-medium">@Html.DisplayFor(modelItem => item.Title)</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-primary">@Html.DisplayFor(modelItem => item.Category.Name)</span>
+                                </td>
+                                <td>
+                                    <i class="bi bi-person me-1"></i>
+                                    @(item.Author != null ? item.Author.UserName : "N/A")
+                                </td>
+                                <td>
+                                    @if (item.PublishedDate.Year > 1970) // Giả định năm > 1970 là ngày publish hợp lệ
+                                    {
+                                        <i class="bi bi-calendar-event me-1"></i>
+                                        @item.PublishedDate.ToString("dd/MM/yyyy HH:mm")
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted"><i class="bi bi-clock-history me-1"></i>Chưa xuất bản</span>
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.IsPublished)
+                                    {
+                                        <span class="badge bg-success">Đã xuất bản</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Chưa xuất bản</span>
+                                    }
+                                </td>
+                                <td>
+                                    <span class="badge bg-info text-dark">@item.ViewCount</span>
+                                </td>
+                                <td class="text-center">
+                                    <a asp-action="Edit" asp-route-id="@item.ArticleId" class="btn btn-sm btn-action btn-outline-primary" title="Sửa">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.ArticleId" class="btn btn-sm btn-action btn-outline-info" title="Chi tiết">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.ArticleId" class="btn btn-sm btn-action btn-outline-danger" title="Xóa">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
                     }
                     else
                     {
-                        <span>Chưa xuất bản</span>
+                        <tr>
+                            <td colspan="7" class="text-center py-4">
+                                <div class="d-flex flex-column align-items-center">
+                                    <i class="bi bi-file-earmark-x display-6 text-muted mb-3"></i>
+                                    <p class="text-muted">Chưa có bài viết nào.</p>
+                                    <a asp-action="Create" class="btn btn-sm btn-primary">
+                                        <i class="bi bi-plus-circle me-1"></i> Tạo bài viết đầu tiên
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
                     }
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IsPublished)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ViewCount)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-primary">Sửa</a> |
-                    <a asp-action="Details" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-info">Chi tiết</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ArticleId" class="btn btn-sm btn-outline-danger">Xóa</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                </tbody>
+            </table>
+        </div>
+    </div>
+      <div class="card-footer">
+        <div class="row align-items-center">
+            <div class="col-md-6 small text-muted">
+                Hiển thị <span class="fw-bold">@Model.Count()</span> trên tổng số bài viết
+            </div>
+            <div class="col-md-6">
+                <nav aria-label="Page navigation" class="float-md-end">
+                    <ul class="pagination pagination-sm mb-0">
+                        @if (ViewBag.HasPreviousPage == true)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" href="@Url.Action("Index", new { pageNumber = ViewBag.PageNumber - 1, sortOrder = ViewData["CurrentSort"], searchString = ViewData["CurrentFilter"], categoryId = ViewBag.SelectedCategoryId, publishStatus = ViewBag.PublishStatus })" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                        }
+                        
+                        @for (int i = 1; i <= (ViewBag.TotalPages ?? 1); i++)
+                        {
+                            <li class="page-item @(i == ViewBag.PageNumber ? "active" : "")">
+                                <a class="page-link" href="@Url.Action("Index", new { pageNumber = i, sortOrder = ViewData["CurrentSort"], searchString = ViewData["CurrentFilter"], categoryId = ViewBag.SelectedCategoryId, publishStatus = ViewBag.PublishStatus })">@i</a>
+                            </li>
+                        }
+                        
+                        @if (ViewBag.HasNextPage == true)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" href="@Url.Action("Index", new { pageNumber = ViewBag.PageNumber + 1, sortOrder = ViewData["CurrentSort"], searchString = ViewData["CurrentFilter"], categoryId = ViewBag.SelectedCategoryId, publishStatus = ViewBag.PublishStatus })" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Enable tooltips for action buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[title]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}

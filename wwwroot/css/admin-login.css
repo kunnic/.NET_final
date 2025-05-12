@@ -1,0 +1,106 @@
+/* Admin login styles */
+.admin-login-page-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+    background: linear-gradient(135deg, rgba(0,123,255,0.05), rgba(0,86,179,0.08));
+    padding: 2rem 1rem;
+}
+
+.admin-login-content {
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    padding: 2rem;
+    position: relative;
+}
+
+.login-header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+    opacity: 0.85;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 2.5rem;
+}
+
+.form-floating {
+    margin-bottom: 1.25rem;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    height: calc(3.5rem + 2px);
+    font-size: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.form-floating label {
+    padding: 1rem 0.75rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.25);
+}
+
+.text-danger {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    .card-body {
+        padding: 1.5rem;
+    }
+    
+    .login-header {
+        padding: 1.5rem;
+    }
+}

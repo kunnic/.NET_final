@@ -5,6 +5,10 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="~/css/article-editor.css" asp-append-version="true">
+}
+
 <h1>@ViewData["Title"]</h1>
 
 <h4>Bài viết</h4>
@@ -24,19 +28,17 @@
                 <label asp-for="Summary" class="control-label"></label>
                 <textarea asp-for="Summary" class="form-control" rows="3"></textarea>
                 <span asp-validation-for="Summary" class="text-danger"></span>
-            </div>
-
-            <div class="form-group mb-3">
+            </div>            <div class="form-group mb-3">
                 <label asp-for="Content" class="control-label"></label>
-                <textarea asp-for="Content" class="form-control" rows="10" id="editor"></textarea> {{-- Cân nhắc dùng một rich text editor ở đây --}}
+                <div id="editor-container">
+                    <textarea asp-for="Content" id="content-textarea" class="form-control" rows="15"></textarea>
+                </div>
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
 
-            <div class="form-group mb-3">
-                <label asp-for="ImageUrl" class="control-label"></label>
+            <div class="form-group mb-3">                <label asp-for="ImageUrl" class="control-label"></label>
                 <input asp-for="ImageUrl" class="form-control" />
                 <span asp-validation-for="ImageUrl" class="text-danger"></span>
-                {{-- Cân nhắc thêm phần upload file thực tế ở đây --}}
             </div>
 
             <div class="form-group mb-3">
@@ -65,11 +67,5 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-        {{-- Kịch bản cho Rich Text Editor nếu có --}}
-        {{-- Ví dụ với CKEditor (cần tải thư viện trước):
-    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace('editor');
-    </script>
-    --}}
+    <script src="~/js/article-editor.js" asp-append-version="true"></script>
 }

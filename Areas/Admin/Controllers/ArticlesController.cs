@@ -29,25 +29,86 @@ namespace news_project_mvc.Areas.Admin.Controllers
             _context = context;
             _userManager = userManager;
             _logger = logger;
-        }
-
-        // GET: Admin/Articles
-        public async Task<IActionResult> Index()
+        }        // GET: Admin/Articles
+        public async Task<IActionResult> Index(string sortOrder, string searchString, int? categoryId, string publishStatus, int? pageNumber)
         {
-            _logger.LogInformation("Fetching articles for Admin index page.");
+            _logger.LogInformation("Fetching articles for Admin index page with filters.");
             try
             {
-                var articles = await _context.Articles
-                                             .Include(a => a.Category)
-                                             .Include(a => a.Author)
-                                             .OrderByDescending(a => a.CreatedAt)
-                                             .ToListAsync();
+                // Store filter values for view
+                ViewData["CurrentSort"] = sortOrder;
+                ViewData["TitleSortParm"] = String.IsNullOrEmpty(sortOrder) ? "title_desc" : "";
+                ViewData["CategorySortParm"] = sortOrder == "category" ? "category_desc" : "category";
+                ViewData["DateSortParm"] = sortOrder == "date" ? "date_desc" : "date";
+                ViewData["ViewsSortParm"] = sortOrder == "views" ? "views_desc" : "views";
+                ViewData["CurrentFilter"] = searchString;
+
+                // Load all categories for filter dropdown
+                ViewBag.Categories = await _context.Categories.ToListAsync();
+                ViewBag.SelectedCategoryId = categoryId;
+                ViewBag.PublishStatus = publishStatus;
+
+                // Start with all articles
+                var articlesQuery = _context.Articles
+                    .Include(a => a.Category)
+                    .Include(a => a.Author)
+                    .AsQueryable();
+
+                // Apply filters
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    articlesQuery = articlesQuery.Where(a => 
+                        a.Title.Contains(searchString) || 
+                        a.Content.Contains(searchString));
+                }
+
+                if (categoryId.HasValue)
+                {
+                    articlesQuery = articlesQuery.Where(a => a.CategoryId == categoryId.Value);
+                }
+
+                if (!String.IsNullOrEmpty(publishStatus))
+                {
+                    bool isPublished = publishStatus == "true";
+                    articlesQuery = articlesQuery.Where(a => a.IsPublished == isPublished);
+                }
+
+                // Apply sorting
+                switch (sortOrder)
+                {
+                    case "title_desc":
+                        articlesQuery = articlesQuery.OrderByDescending(a => a.Title);
+                        break;
+                    case "category":
+                        articlesQuery = articlesQuery.OrderBy(a => a.Category.Name);
+                        break;
+                    case "category_desc":
+                        articlesQuery = articlesQuery.OrderByDescending(a => a.Category.Name);
+                        break;
+                    case "date":
+                        articlesQuery = articlesQuery.OrderBy(a => a.CreatedAt);
+                        break;
+                    case "date_desc":
+                        articlesQuery = articlesQuery.OrderByDescending(a => a.CreatedAt);
+                        break;
+                    case "views":
+                        articlesQuery = articlesQuery.OrderBy(a => a.ViewCount);
+                        break;
+                    case "views_desc":
+                        articlesQuery = articlesQuery.OrderByDescending(a => a.ViewCount);
+                        break;
+                    default:
+                        articlesQuery = articlesQuery.OrderByDescending(a => a.CreatedAt);
+                        break;
+                }
+
+                // Execute query
+                var articles = await articlesQuery.ToListAsync();
                 return View(articles);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error fetching articles for Admin index.");
-                // Consider a more user-friendly error view
                 TempData["ErrorMessage"] = "Có lỗi xảy ra khi tải danh sách bài viết.";
                 return View(new List<Article>()); // Trả về danh sách rỗng hoặc trang lỗi
             }
@@ -123,14 +184,14 @@ namespace news_project_mvc.Areas.Admin.Controllers
                     return View(viewModel);
                 }
 
-                string slug = await GenerateUniqueSlug(viewModel.Title);
-
+                string slug = await GenerateUniqueSlug(viewModel.Title);                // Làm sạch HTML đầu vào
+                string safeContent = SanitizeHtml(viewModel.Content);
+                
                 var article = new Article
                 {
                     Title = viewModel.Title,
-                    Summary = viewModel.Summary,
-                    Content = viewModel.Content,
-                    ImageUrl = viewModel.ImageUrl, // Cần xử lý upload file ảnh nếu có
+                    Summary = viewModel.Summary,                    Content = safeContent,
+                    ImageUrl = viewModel.ImageUrl,
                     CategoryId = viewModel.CategoryId,
                     IsPublished = viewModel.IsPublished,
                     AuthorId = userId,
@@ -195,11 +256,9 @@ namespace news_project_mvc.Areas.Admin.Controllers
             {
                 _logger.LogWarning("Article with ID {ArticleId} not found for Edit.", id);
                 return NotFound();
-            }
-
-            var viewModel = new ArticleViewModel
+            }            var viewModel = new ArticleViewModel
             {
-                // ArticleId = article.ArticleId, // Thêm ArticleId vào ViewModel nếu bạn muốn bind trực tiếp
+                ArticleId = article.ArticleId, // Cần thiết để liên kết "Xem chi tiết" hoạt động đúng
                 Title = article.Title,
                 Summary = article.Summary,
                 Content = article.Content,
@@ -217,19 +276,16 @@ namespace news_project_mvc.Areas.Admin.Controllers
 
 
             return View(viewModel);
-        }
-
-        // POST: Admin/Articles/Edit/5
+        }        // POST: Admin/Articles/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, ArticleViewModel viewModel, string currentSlug, DateTime currentPublishedDate, string currentAuthorId, DateTime currentCreatedAt)
         {
-            // ArticleId nên được lấy từ route 'id', không phải từ viewModel trừ khi bạn thêm nó vào VM và bind.
-            // if (id != viewModel.ArticleId) // Chỉ cần thiết nếu ArticleId có trong ViewModel và được bind
-            // {
-            //     _logger.LogWarning("Edit POST ID mismatch. Route ID: {RouteId}, Model ID: {ModelId}", id, viewModel.ArticleId);
-            //     return NotFound();
-            // }
+            if (id != viewModel.ArticleId && viewModel.ArticleId != 0)
+            {
+                _logger.LogWarning("Edit POST ID mismatch. Route ID: {RouteId}, Model ID: {ModelId}", id, viewModel.ArticleId);
+                return NotFound();
+            }
 
             _logger.LogInformation("Attempting to update article with ID {ArticleId}. Title: {ArticleTitle}", id, viewModel.Title);
 
@@ -250,12 +306,13 @@ namespace news_project_mvc.Areas.Admin.Controllers
                 else
                 {
                     articleToUpdate.Slug = currentSlug; // Giữ slug cũ nếu title không đổi
-                }
-
-                articleToUpdate.Title = viewModel.Title;
+                }                articleToUpdate.Title = viewModel.Title;
                 articleToUpdate.Summary = viewModel.Summary;
-                articleToUpdate.Content = viewModel.Content; // Cân nhắc HTML sanitizer
-                articleToUpdate.ImageUrl = viewModel.ImageUrl; // Cân nhắc xử lý upload file
+                  // Xử lý HTML đơn giản cho nội dung - chỉ cho phép một số thẻ cơ bản
+                string safeContent = SanitizeHtml(viewModel.Content);
+                articleToUpdate.Content = safeContent;
+                
+                articleToUpdate.ImageUrl = viewModel.ImageUrl;
                 articleToUpdate.CategoryId = viewModel.CategoryId;
 
                 // Xử lý PublishedDate
@@ -431,6 +488,7 @@ namespace news_project_mvc.Areas.Admin.Controllers
             }
             return slug;
         }
+
         private void LogModelStateErrors()
         {
             foreach (var modelStateKey in ModelState.Keys)
@@ -441,6 +499,62 @@ namespace news_project_mvc.Areas.Admin.Controllers
                     _logger.LogWarning("ModelState Error for {KeyState}: {ErrorMessage} (Exception: {ExceptionMessage})",
                         modelStateKey, error.ErrorMessage, error.Exception?.Message);
                 }
+            }
+        }
+
+        // Phương thức làm sạch HTML, chỉ cho phép một số thẻ HTML cơ bản
+        private string SanitizeHtml(string html)
+        {
+            if (string.IsNullOrEmpty(html))
+            {
+                return string.Empty;
+            }            // Danh sách các thẻ HTML được phép
+            var allowedTags = new[] { "p", "br", "b", "i", "u", "strong", "em", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "a", "img", "blockquote", "code", "pre", "hr", "table", "thead", "tbody", "tr", "th", "td", "caption" };
+            
+            try
+            {
+                // Loại bỏ script và các thẻ nguy hiểm khác
+                html = System.Text.RegularExpressions.Regex.Replace(
+                    html,
+                    @"<script[^>]*>[\s\S]*?</script>|<style[^>]*>[\s\S]*?</style>|<iframe[^>]*>[\s\S]*?</iframe>|<frame[^>]*>[\s\S]*?</frame>|<frameset[^>]*>[\s\S]*?</frameset>|<object[^>]*>[\s\S]*?</object>|<embed[^>]*>[\s\S]*?</embed>|<applet[^>]*>[\s\S]*?</applet>|<meta[^>]*>|<!doctype[^>]*>|<link[^>]*>|<body[^>]*>|<\/body>|<head[^>]*>|<\/head>|<html[^>]*>|<\/html>",
+                    "",
+                    System.Text.RegularExpressions.RegexOptions.IgnoreCase
+                );
+
+                // Loại bỏ các thuộc tính JavaScript
+                html = System.Text.RegularExpressions.Regex.Replace(
+                    html,
+                    @"on\w+\s*=\s*""[^""]*""|on\w+\s*=\s*'[^']*'|on\w+\s*=[^\s>]*",
+                    "",
+                    System.Text.RegularExpressions.RegexOptions.IgnoreCase
+                );
+
+                // Đảm bảo các thuộc tính href bắt đầu bằng http:// hoặc https:// trong thẻ a
+                html = System.Text.RegularExpressions.Regex.Replace(
+                    html,
+                    @"<a\s+(?:[^>]*?\s+)?href\s*=\s*(['""])(?!https?:\/\/)([^""'>]+)(['""])([^>]*?)>",
+                    m =>
+                    {
+                        var url = m.Groups[2].Value;
+                        if (!url.StartsWith("#") && !url.StartsWith("/") && !url.StartsWith("mailto:"))
+                        {
+                            return $"<a href=\"http://{url}\"{m.Groups[4].Value}>";
+                        }
+                        return m.Value;
+                    },
+                    System.Text.RegularExpressions.RegexOptions.IgnoreCase
+                );
+                
+                // Log nội dung đã được làm sạch
+                _logger.LogInformation("HTML content sanitized successfully");
+                
+                return html;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error sanitizing HTML content");
+                // Nếu có lỗi, trả về nội dung không có HTML nào
+                return System.Net.WebUtility.HtmlEncode(html);
             }
         }
     }

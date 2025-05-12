@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "koF5GmPmRVY=",
+  "dgSpecHash": "6UCOOke8otw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kunnic\\Desktop\\.net_final\\news_project_mvc\\news_project_mvc.csproj",
+  "projectFilePath": "C:\\Users\\kunnic\\Desktop\\.net_final - Copy (2)\\news_project_mvc\\news_project_mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunnic\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kunnic\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

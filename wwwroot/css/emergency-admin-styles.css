@@ -1,0 +1,66 @@
+/* emergency-admin-styles.css - Critical fallback styles for admin layout */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.admin-wrapper {
+    display: flex;
+    flex-grow: 1;
+}
+
+.admin-sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    padding: 1rem;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-content {
+    flex-grow: 1;
+    padding: 1.5rem;
+    background-color: #f7fafc;
+    overflow-y: auto;
+}
+
+.admin-footer {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    color: #718096;
+    font-size: 0.875rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+@media (max-width: 991.98px) {
+    .admin-wrapper {
+        flex-direction: column;
+    }
+    
+    .admin-sidebar {
+        position: fixed;
+        left: -250px;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        transition: left 0.3s ease;
+    }
+    
+    .admin-sidebar.show {
+        left: 0;
+    }
+    
+    .admin-content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+
+/* Sidebar toggle container */
+.sidebar-toggle-container {
+    z-index: 1050;
+}
